@@ -80,7 +80,7 @@ function App() {
           <div>
             <span>
             
-              <a href="https://linkedin.com/in/dkj0" target="_blank" rel="noopener noreferrer">
+              <a href="https://linkedin.com/in/dkjo8" target="_blank" rel="noopener noreferrer">
                 LinkedIn
               </a>
               <br />
