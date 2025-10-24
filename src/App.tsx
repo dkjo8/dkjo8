@@ -103,7 +103,7 @@ function App() {
             </span>
             <br /> <br />
             <span>
-              - I hate french and I suck at maths
+              - I hate french, the language obviously
             </span>
           </div>
         </div>
