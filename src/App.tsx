@@ -44,18 +44,18 @@ function App() {
         {/* Main Content */}
         <div className="space-y-6 text-lg leading-relaxed">
           <p>
-            Wzup, I'm David. 16 y/o ui and coding maniac. I've got lots of energy, I do stuff fast and I love building + meeting people.
+            Wzup, I'm David. 16 y/o. I do stuff fast, love building + meeting people.
           </p>
           
           <p>
-            rn I do client work @{' '}
+            rn I work @{' '}
             <a 
-              href="https://cortify.io" 
+              href="https://strawberrybrowser.com/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg transition-colors duration-200 inline-block"
             >
-              cortify
+              strawberrybrowser
             </a>
             {' '}and I'm building{' '}
             <a 
@@ -64,7 +64,7 @@ function App() {
               rel="noopener noreferrer"
               className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg transition-colors duration-200 inline-block"
             >
-              Lockta
+              Something
             </a>
           </p>
           
