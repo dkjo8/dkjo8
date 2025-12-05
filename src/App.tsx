@@ -44,7 +44,7 @@ function App() {
         {/* Main Content */}
         <div className="space-y-6 text-lg leading-relaxed">
           <p>
-            Wzup, I'm David. 16 y/o. I do stuff fast, love building + meeting people.
+            Wzup
           </p>
           
           <p>
