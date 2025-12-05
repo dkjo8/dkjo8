@@ -14,7 +14,7 @@ function App() {
             ← Back to main page
           </span>
           
-          <h1 className="text-3xl font-bold mb-8">Cool People I've Met</h1>
+          <h1 className="text-3xl font-bold mb-8"></h1>
           
           <div>
             <img 
