@@ -131,23 +131,14 @@ function App() {
           </p>
 
           <p>
-            rn I work @{' '}
-            <a 
-              href="https://strawberrybrowser.com/" 
-              target="_blank" 
+            browsing the web @{' '}
+            <a
+              href="https://strawberrybrowser.com/"
+              target="_blank"
               rel="noopener noreferrer"
               className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg transition-colors duration-200 inline-block"
             >
-              strawberrybrowser
-            </a>
-            {' '}and I'm researching{' '}
-            <a 
-              href="" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg transition-colors duration-200 inline-block"
-            >
-              BIO-AI
+              strawberry
             </a>
           </p>
 
@@ -159,7 +150,7 @@ function App() {
               thoughts
             </span>
             <span>
-            
+
               <a href="https://linkedin.com/in/dkjo8" target="_blank" rel="noopener noreferrer">
                 LinkedIn
               </a>
@@ -167,23 +158,6 @@ function App() {
               <a href="https://twitter.com/dkjo08" target="_blank" rel="noopener noreferrer">
                 Twitter
               </a>
-            </span>
-            <br /> <br />
-            <span>
-              Fun facts about me:
-            </span>
-            <br /> <br />
-            <span>
-              - I love sports (hockey, american football) <br />
-              tampa bay is my favorite team, and DIF
-            </span>
-            <br /> <br />
-            <span>
-              - I'm good at remembering faces and license plates lmao (not flexing)
-            </span>
-            <br /> <br />
-            <span>
-              - I hate french, the language obviously
             </span>
           </div>
         </div>
