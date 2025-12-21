@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 function App() {
-  const [showLorem, setShowLorem] = useState(false)
+  const [showLorem,] = useState(false)
 
   if (showLorem) {
     return (
