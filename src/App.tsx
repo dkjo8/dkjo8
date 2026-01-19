@@ -40,6 +40,30 @@ function TypingText({
   )
 }
 
+function FadeIn({ 
+  children, 
+  delay = 0 
+}: { 
+  children: React.ReactNode
+  delay?: number
+}) {
+  const [visible, setVisible] = useState(false)
+
+  useEffect(() => {
+    const timeout = setTimeout(() => setVisible(true), delay)
+    return () => clearTimeout(timeout)
+  }, [delay])
+
+  return (
+    <span 
+      className={`transition-all duration-700 ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-2'}`}
+      style={{ display: 'inline' }}
+    >
+      {children}
+    </span>
+  )
+}
+
 function ThemeToggle() {
   const [isDark, setIsDark] = useState(false)
 
@@ -107,25 +131,27 @@ function App() {
           <p className="text-base leading-relaxed text-neutral-600 dark:text-neutral-400">
             <TypingText text="Polymath/got, ex-athlete and music producer." />
             <br />
-            <span>The human equivalent of </span>
-            <a
-              href="https://en.wikipedia.org/wiki/Lightning_McQueen"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-neutral-600 dark:text-neutral-400 underline decoration-neutral-300 dark:decoration-neutral-600 underline-offset-2 transition-colors hover:text-black dark:hover:text-white hover:decoration-black dark:hover:decoration-white"
-            >
-              Lightning McQueen
-            </a>
-            <span> but with the aura of </span>
-            <a
-              href="https://en.wikipedia.org/wiki/Aragorn"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-neutral-600 dark:text-neutral-400 underline decoration-neutral-300 dark:decoration-neutral-600 underline-offset-2 transition-colors hover:text-black dark:hover:text-white hover:decoration-black dark:hover:decoration-white"
-            >
-              Aragorn
-            </a>
-            <span>.</span>
+            <FadeIn delay={1800}>
+              <span>The human equivalent of </span>
+              <a
+                href="https://en.wikipedia.org/wiki/Lightning_McQueen"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-neutral-600 dark:text-neutral-400 underline decoration-neutral-300 dark:decoration-neutral-600 underline-offset-2 transition-colors hover:text-black dark:hover:text-white hover:decoration-black dark:hover:decoration-white"
+              >
+                Lightning McQueen
+              </a>
+              <span> but with the aura of </span>
+              <a
+                href="https://en.wikipedia.org/wiki/Aragorn"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-neutral-600 dark:text-neutral-400 underline decoration-neutral-300 dark:decoration-neutral-600 underline-offset-2 transition-colors hover:text-black dark:hover:text-white hover:decoration-black dark:hover:decoration-white"
+              >
+                Aragorn
+              </a>
+              <span>.</span>
+            </FadeIn>
           </p>
         </section>
 
