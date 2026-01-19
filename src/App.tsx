@@ -228,6 +228,21 @@ function App() {
           </div>
         </section>
 
+        {/* Advice */}
+        <section className="mb-8">
+          <h2 className="text-sm uppercase tracking-widest text-neutral-400 mb-3">
+            Advice
+          </h2>
+          <div className="relative space-y-0">
+            <div className="relative flex items-center gap-4">
+              <div className="relative z-10 h-2 w-2 rounded-full bg-neutral-300 dark:bg-neutral-600" />
+              <span className="text-base text-neutral-600 dark:text-neutral-400">
+                Never fall for schadenfreude bait.
+              </span>
+            </div>
+          </div>
+        </section>
+
         {/* Navigation */}
         <nav className="mt-auto">
           <ul className="flex gap-6 text-base">
