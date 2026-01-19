@@ -116,6 +116,15 @@ function App() {
             >
               Lightning McQueen
             </a>
+            <span> but with the aura of </span>
+            <a
+              href="https://en.wikipedia.org/wiki/Aragorn"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-neutral-600 dark:text-neutral-400 underline decoration-neutral-300 dark:decoration-neutral-600 underline-offset-2 transition-colors hover:text-black dark:hover:text-white hover:decoration-black dark:hover:decoration-white"
+            >
+              Aragorn
+            </a>
             <span>.</span>
           </p>
         </section>
