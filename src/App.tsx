@@ -188,7 +188,7 @@ function App() {
         {/* About */}
         <section className="mb-8">
           <div className="relative space-y-0">
-            <div className="absolute left-1 top-2 h-[calc(100%-16px)] w-px bg-neutral-200 dark:bg-neutral-700" />
+            <div className="absolute left-1 top-2 bottom-2 w-px bg-neutral-200 dark:bg-neutral-700" />
             
             <div className="relative flex items-center gap-4 pb-3">
               <div className="relative z-10 h-2 w-2 rounded-full bg-neutral-300 dark:bg-neutral-600" />
@@ -219,7 +219,7 @@ function App() {
             Most Impressive thing done
           </h2>
           <div className="relative space-y-0">
-            <div className="absolute left-1 top-2 h-[calc(100%-16px)] w-px bg-neutral-200 dark:bg-neutral-700" />
+            <div className="absolute left-1 top-2 bottom-2 w-px bg-neutral-200 dark:bg-neutral-700" />
             
             <div className="relative flex items-center gap-4 pb-3">
               <div className="relative z-10 h-2 w-2 rounded-full bg-neutral-300 dark:bg-neutral-600" />
@@ -243,6 +243,8 @@ function App() {
             Advice
           </h2>
           <div className="relative space-y-0">
+            <div className="absolute left-1 top-2 bottom-2 w-px bg-neutral-200 dark:bg-neutral-700" />
+            
             <div className="relative flex items-center gap-4">
               <div className="relative z-10 h-2 w-2 rounded-full bg-neutral-300 dark:bg-neutral-600" />
               <span className="text-base text-neutral-600 dark:text-neutral-400">
