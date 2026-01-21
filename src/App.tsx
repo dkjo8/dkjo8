@@ -54,13 +54,13 @@ function FadeIn({
     return () => clearTimeout(timeout)
   }, [delay])
 
-  return (
-    <span 
+    return (
+          <span 
       className={`transition-all duration-700 ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-2'}`}
       style={{ display: 'inline' }}
-    >
+          >
       {children}
-    </span>
+          </span>
   )
 }
 
@@ -115,9 +115,9 @@ function App() {
           </p>
           <p className="mt-2 text-base text-neutral-500">
             Growth & Engineering @{" "}
-            <a
+            <a 
               href="https://strawberrybrowser.com"
-              target="_blank"
+              target="_blank" 
               rel="noopener noreferrer"
               className="text-neutral-600 dark:text-neutral-400 underline decoration-neutral-300 dark:decoration-neutral-600 underline-offset-2 transition-colors hover:text-black dark:hover:text-white hover:decoration-black dark:hover:decoration-white"
             >
@@ -138,18 +138,18 @@ function App() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-neutral-600 dark:text-neutral-400 underline decoration-neutral-300 dark:decoration-neutral-600 underline-offset-2 transition-colors hover:text-black dark:hover:text-white hover:decoration-black dark:hover:decoration-white"
-              >
+            >
                 Lightning McQueen
-              </a>
+            </a>
               <span> but with the aura of </span>
-              <a
+            <a 
                 href="https://en.wikipedia.org/wiki/Aragorn"
-                target="_blank"
-                rel="noopener noreferrer"
+              target="_blank" 
+              rel="noopener noreferrer"
                 className="text-neutral-600 dark:text-neutral-400 underline decoration-neutral-300 dark:decoration-neutral-600 underline-offset-2 transition-colors hover:text-black dark:hover:text-white hover:decoration-black dark:hover:decoration-white"
-              >
+            >
                 Aragorn
-              </a>
+            </a>
               <span>.</span>
             </FadeIn>
           </p>
@@ -178,7 +178,7 @@ function App() {
                 </span>
                 <span className="ml-auto text-sm text-neutral-400">
                   Builder
-                </span>
+            </span>
               </div>
             </div>
 
@@ -219,10 +219,19 @@ function App() {
             Most Impressive thing done
           </h2>
           <div className="relative space-y-0">
-            <div className="relative flex items-center gap-4">
+            <div className="absolute left-1 top-2 h-[calc(100%-16px)] w-px bg-neutral-200 dark:bg-neutral-700" />
+            
+            <div className="relative flex items-center gap-4 pb-3">
               <div className="relative z-10 h-2 w-2 rounded-full bg-neutral-300 dark:bg-neutral-600" />
               <span className="text-base text-neutral-600 dark:text-neutral-400">
                 Grew a product design agency to $10K/month with 500K+ views in 4 months.
+              </span>
+            </div>
+            
+            <div className="relative flex items-center gap-4">
+              <div className="relative z-10 h-2 w-2 rounded-full bg-neutral-300 dark:bg-neutral-600" />
+              <span className="text-base text-neutral-600 dark:text-neutral-400">
+                Did campaigns for artists with 100M streams @ 13 (made $1.5K but got banned by paypal rip)
               </span>
             </div>
           </div>
