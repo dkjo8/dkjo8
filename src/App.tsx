@@ -191,22 +191,22 @@ function App() {
             <div className="absolute left-1 top-2 bottom-2 w-px bg-neutral-200 dark:bg-neutral-700" />
             
             <div className="relative flex items-center gap-4 pb-3">
-              <div className="relative z-10 h-2 w-2 rounded-full bg-neutral-300 dark:bg-neutral-600" />
-              <span className="text-base text-neutral-600 dark:text-neutral-400">
+              <div className="absolute left-1 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 h-2 w-2 rounded-full bg-neutral-300 dark:bg-neutral-600" />
+              <span className="text-base text-neutral-600 dark:text-neutral-400 pl-4">
                 WR/NR holder.
               </span>
             </div>
             
             <div className="relative flex items-center gap-4 pb-3">
-              <div className="relative z-10 h-2 w-2 rounded-full bg-neutral-300 dark:bg-neutral-600" />
-              <span className="text-base text-neutral-600 dark:text-neutral-400">
+              <div className="absolute left-1 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 h-2 w-2 rounded-full bg-neutral-300 dark:bg-neutral-600" />
+              <span className="text-base text-neutral-600 dark:text-neutral-400 pl-4">
                 Top 3 GeoGuessr.
               </span>
             </div>
             
             <div className="relative flex items-center gap-4">
-              <div className="relative z-10 h-2 w-2 rounded-full bg-neutral-300 dark:bg-neutral-600" />
-              <span className="text-base text-neutral-600 dark:text-neutral-400">
+              <div className="absolute left-1 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 h-2 w-2 rounded-full bg-neutral-300 dark:bg-neutral-600" />
+              <span className="text-base text-neutral-600 dark:text-neutral-400 pl-4">
                 School Speedrunner.
               </span>
             </div>
@@ -222,15 +222,15 @@ function App() {
             <div className="absolute left-1 top-2 bottom-2 w-px bg-neutral-200 dark:bg-neutral-700" />
             
             <div className="relative flex items-center gap-4 pb-3">
-              <div className="relative z-10 h-2 w-2 rounded-full bg-neutral-300 dark:bg-neutral-600" />
-              <span className="text-base text-neutral-600 dark:text-neutral-400">
+              <div className="absolute left-1 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 h-2 w-2 rounded-full bg-neutral-300 dark:bg-neutral-600" />
+              <span className="text-base text-neutral-600 dark:text-neutral-400 pl-4">
                 Grew a product design agency to $10K/month with 500K+ views in 4 months.
               </span>
             </div>
             
             <div className="relative flex items-center gap-4">
-              <div className="relative z-10 h-2 w-2 rounded-full bg-neutral-300 dark:bg-neutral-600" />
-              <span className="text-base text-neutral-600 dark:text-neutral-400">
+              <div className="absolute left-1 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 h-2 w-2 rounded-full bg-neutral-300 dark:bg-neutral-600" />
+              <span className="text-base text-neutral-600 dark:text-neutral-400 pl-4">
                 Did campaigns for artists with 100M streams @ 13 (made $1.5K but got banned by paypal rip)
               </span>
             </div>
@@ -246,8 +246,8 @@ function App() {
             <div className="absolute left-1 top-2 bottom-2 w-px bg-neutral-200 dark:bg-neutral-700" />
             
             <div className="relative flex items-center gap-4">
-              <div className="relative z-10 h-2 w-2 rounded-full bg-neutral-300 dark:bg-neutral-600" />
-              <span className="text-base text-neutral-600 dark:text-neutral-400">
+              <div className="absolute left-1 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 h-2 w-2 rounded-full bg-neutral-300 dark:bg-neutral-600" />
+              <span className="text-base text-neutral-600 dark:text-neutral-400 pl-4">
                 Never fall for schadenfreude bait.
               </span>
             </div>
